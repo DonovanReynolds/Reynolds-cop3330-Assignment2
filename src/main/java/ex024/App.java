@@ -27,8 +27,8 @@ public class App {
         if (first.length() != second.length())
             return false;
 
-        char[] firstWord = first.toCharArray();
-        char[] secondWord = second.toCharArray();
+        char[] firstWord = first.toLowerCase().toCharArray();
+        char[] secondWord = second.toLowerCase().toCharArray();
 
         for (int i = 0; i < firstWord.length;i++)
         {
