@@ -1,4 +1,4 @@
-package org.example;
+package ex024;
 
 import static ex024.App.isAnagram;
 import static org.junit.Assert.*;
