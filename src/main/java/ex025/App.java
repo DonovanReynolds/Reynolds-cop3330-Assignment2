@@ -3,6 +3,10 @@ package ex025;
 import java.util.Scanner;
 
 public class App {
+    /*
+     *   UCF COP 3330 Fall 2021 Assignment 2 Solution
+     *   Copyright 2021 Donovan Reynolds
+     */
 
     public static void main( String[] args )
     {
