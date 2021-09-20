@@ -10,6 +10,13 @@ public class Methods {
         return input.nextLine();
     }
 
+    public static char getFirstChar(String textToSay)
+    {
+        Scanner input = new Scanner(System.in);
+        System.out.println(textToSay);
+        return input.nextLine().toLowerCase().charAt(0);
+    }
+
     public static int stringToInt(String error)
     {
         int temp = 0;
@@ -30,6 +37,23 @@ public class Methods {
             }
         }
         return temp;
+    }
+    public static int stringToIntNoLoop(String error)
+    {
+        int temp = -1;
+
+            String text = inputOutput(error);
+            try
+            {
+                temp = Integer.parseInt(text);
+                return temp;
+            }
+            catch(NumberFormatException e)
+            {
+                System.out.println("Only enter number values");
+                return temp;
+            }
+
     }
 
     public static double stringToDouble (String error)
